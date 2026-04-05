@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ELARA — Luxury Hotel</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Georgia:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">ELARA</div>
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active" data-page="home">Home</a></li>
+      <li><a href="#rooms" class="nav-link" data-page="rooms">Rooms</a></li>
+      <li><a href="#dining" class="nav-link" data-page="dining">Dining</a></li>
+      <li><a href="#spa" class="nav-link" data-page="spa">Spa</a></li>
+    </ul>
+    <a href="#rooms" class="nav-cta">Reserve</a>
+  </nav>
+
+  <!-- PAGE: HOME -->
+  <section class="page active" id="home">
+
+    <div class="hero">
+      <div class="hero-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="noise"></div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">Est. 1924 · Lake Geneva, Switzerland</p>
+        <h1 class="hero-title">
+          <span class="line">Where</span>
+          <span class="line italic">Silence</span>
+          <span class="line">Becomes Luxury</span>
+        </h1>
+        <p class="hero-sub">An architectural jewel perched above the glacial waters, ELARA defines the art of refined escape.</p>
+        <div class="hero-actions">
+          <a href="#rooms" class="btn-primary" data-page="rooms">Explore Rooms</a>
+          <a href="#dining" class="btn-ghost" data-page="dining">Discover Dining</a>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </div>
+
+    <!-- STATS -->
+    <div class="stats glass-panel">
+      <div class="stat">
+        <span class="stat-num">48</span>
+        <span class="stat-label">Private Suites</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">3</span>
+        <span class="stat-label">Michelin Stars</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">100+</span>
+        <span class="stat-label">Years of Legacy</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num">98%</span>
+        <span class="stat-label">Guest Satisfaction</span>
+      </div>
+    </div>
+
+    <!-- FEATURES -->
+    <div class="features-section">
+      <div class="section-header">
+        <p class="eyebrow">The ELARA Experience</p>
+        <h2 class="section-title">Crafted for the <em>discerning</em> few</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card glass-card" style="--delay:0s">
+          <div class="feature-icon">✦</div>
+          <h3>Lakeside Infinity Pool</h3>
+          <p>Merge with the horizon at our heated platinum-edged pool, open year-round with panoramic alpine views.</p>
+        </div>
+        <div class="feature-card glass-card" style="--delay:.1s">
+          <div class="feature-icon">◈</div>
+          <h3>Private Butler Service</h3>
+          <p>Your dedicated liaison anticipates every need — from pre-arrival curation to seamless daily rhythm.</p>
+        </div>
+        <div class="feature-card glass-card" style="--delay:.2s">
+          <div class="feature-icon">⟡</div>
+          <h3>Art & Architecture</h3>
+          <p>Every corridor tells a story through curated contemporary works and century-old stonework.</p>
+        </div>
+        <div class="feature-card glass-card" style="--delay:.3s">
+          <div class="feature-icon">❋</div>
+          <h3>Botanical Spa</h3>
+          <p>Ten thousand square feet of alpine wellness, drawing from centuries of Swiss herbal tradition.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- TESTIMONIAL -->
+    <div class="testimonial-section">
+      <div class="testimonial-inner glass-panel">
+        <p class="quote">"ELARA is not a hotel — it is a memory you carry forever. The silence of the lake at dawn, the warmth of the staff — nothing compares."</p>
+        <div class="quote-author">
+          <div class="author-dot"></div>
+          <span>Isabelle Moreau, Paris · Returning Guest Since 2009</span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- PAGE: ROOMS -->
+  <section class="page" id="rooms">
+
+    <div class="page-hero">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="noise"></div>
+      <div class="page-hero-content">
+        <p class="hero-eyebrow">Sanctuary</p>
+        <h1 class="page-hero-title">Our <em>Rooms</em> & Suites</h1>
+        <p class="page-hero-sub">Every space is a private world, designed for stillness, beauty and absolute comfort.</p>
+      </div>
+    </div>
+
+    <div class="rooms-grid">
+
+      <div class="room-card glass-card">
+        <div class="room-img" style="background:linear-gradient(135deg,#c8c8c8 0%,#a0a0b0 50%,#888 100%)">
+          <div class="room-badge">From €480/night</div>
+        </div>
+        <div class="room-info">
+          <h3>Deluxe Lake Room</h3>
+          <p class="room-desc">Floor-to-ceiling lake views, hand-laid marble bath, and curated alpine linens from our atelier partners.</p>
+          <div class="room-features">
+            <span>42 m²</span><span>King Bed</span><span>Lake View</span>
+          </div>
+          <a href="#" class="btn-primary room-btn">Book Now</a>
+        </div>
+      </div>
+
+      <div class="room-card glass-card">
+        <div class="room-img" style="background:linear-gradient(135deg,#b0b0c8 0%,#9090a8 50%,#707088 100%)">
+          <div class="room-badge">From €780/night</div>
+        </div>
+        <div class="room-info">
+          <h3>Grand Terrace Suite</h3>
+          <p class="room-desc">A 90 m² suite with private wraparound terrace, separate living room, and dedicated butler alcove.</p>
+          <div class="room-features">
+            <span>90 m²</span><span>King + Sofa</span><span>Private Terrace</span>
+          </div>
+          <a href="#" class="btn-primary room-btn">Book Now</a>
+        </div>
+      </div>
+
+      <div class="room-card glass-card">
+        <div class="room-img" style="background:linear-gradient(135deg,#d4c8b8 0%,#b8a898 50%,#9a8a7a 100%)">
+          <div class="room-badge">From €1,200/night</div>
+        </div>
+        <div class="room-info">
+          <h3>The Platinum Penthouse</h3>
+          <p class="room-desc">A 220 m² crown jewel featuring a private rooftop garden, plunge pool, and panoramic 360° alpine vistas.</p>
+          <div class="room-features">
+            <span>220 m²</span><span>Two Bedrooms</span><span>Rooftop Pool</span>
+          </div>
+          <a href="#" class="btn-primary room-btn">Book Now</a>
+        </div>
+      </div>
+
+      <div class="room-card glass-card">
+        <div class="room-img" style="background:linear-gradient(135deg,#c0c8c0 0%,#9aaa9a 50%,#7a8a7a 100%)">
+          <div class="room-badge">From €620/night</div>
+        </div>
+        <div class="room-info">
+          <h3>Alpine Garden Suite</h3>
+          <p class="room-desc">Ground-floor suite opening directly onto the private botanical garden with stone fire hearth.</p>
+          <div class="room-features">
+            <span>75 m²</span><span>King Bed</span><span>Garden Access</span>
+          </div>
+          <a href="#" class="btn-primary room-btn">Book Now</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Booking bar -->
+    <div class="booking-bar glass-panel">
+      <div class="booking-title">Make a Reservation</div>
+      <div class="booking-fields">
+        <div class="booking-field">
+          <label>Check-In</label>
+          <input type="date" />
+        </div>
+        <div class="booking-field">
+          <label>Check-Out</label>
+          <input type="date" />
+        </div>
+        <div class="booking-field">
+          <label>Guests</label>
+          <select>
+            <option>1 Guest</option>
+            <option>2 Guests</option>
+            <option>3 Guests</option>
+            <option>4+ Guests</option>
+          </select>
+        </div>
+        <button class="btn-primary booking-btn">Check Availability</button>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- PAGE: DINING -->
+  <section class="page" id="dining">
+
+    <div class="page-hero">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="noise"></div>
+      <div class="page-hero-content">
+        <p class="hero-eyebrow">Gastronomy</p>
+        <h1 class="page-hero-title">An Ode to <em>Flavour</em></h1>
+        <p class="page-hero-sub">Three distinct dining concepts, each a chapter in ELARA's culinary story.</p>
+      </div>
+    </div>
+
+    <div class="dining-concepts">
+
+      <div class="dining-card glass-card featured">
+        <div class="dining-visual" style="background:linear-gradient(135deg,#1a1a2e 0%,#2a2a4e 50%,#1a1a3e 100%)">
+          <div class="dining-badge">★★★ Michelin</div>
+          <div class="dining-icon">◈</div>
+        </div>
+        <div class="dining-info">
+          <h3>Altitude</h3>
+          <p class="dining-tagline">Contemporary Alpine Fine Dining</p>
+          <p>Chef Luca Meier transforms the raw beauty of the Swiss Alps into twelve seasonal courses. Every plate is an act of devotion to terroir, foraged ingredients, and precision craft.</p>
+          <div class="dining-details">
+            <span>Dinner Only · Tues–Sun</span>
+            <span>Dress Code: Formal</span>
+          </div>
+          <a href="#" class="btn-primary">Reserve a Table</a>
+        </div>
+      </div>
+
+      <div class="dining-card glass-card">
+        <div class="dining-visual" style="background:linear-gradient(135deg,#2e2a1a 0%,#4e4a2a 50%,#3e3a1a 100%)">
+          <div class="dining-icon">✦</div>
+        </div>
+        <div class="dining-info">
+          <h3>Lac Brasserie</h3>
+          <p class="dining-tagline">All-day lakeside dining</p>
+          <p>Relaxed elegance on the waterfront terrace. Fresh catch from Lake Geneva, heirloom salads, and the finest Swiss cheeses served from our rolling cart.</p>
+          <div class="dining-details">
+            <span>7am – 11pm Daily</span>
+            <span>Smart Casual</span>
+          </div>
+          <a href="#" class="btn-ghost">Reserve a Table</a>
+        </div>
+      </div>
+
+      <div class="dining-card glass-card">
+        <div class="dining-visual" style="background:linear-gradient(135deg,#2e1a2e 0%,#4e2a4e 50%,#3e1a3e 100%)">
+          <div class="dining-icon">❋</div>
+        </div>
+        <div class="dining-info">
+          <h3>The Cellar Bar</h3>
+          <p class="dining-tagline">Rare vintages & crafted cocktails</p>
+          <p>Descend into our 1924 stone cellar — 2,000 labels from the world's greatest vineyards. Our sommeliers craft rare pairings, and our bartenders compose liquid poetry.</p>
+          <div class="dining-details">
+            <span>5pm – 2am · Wed–Mon</span>
+            <span>Smart Casual</span>
+          </div>
+          <a href="#" class="btn-ghost">Reserve a Table</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PAGE: SPA -->
+  <section class="page" id="spa">
+
+    <div class="page-hero">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="noise"></div>
+      <div class="page-hero-content">
+        <p class="hero-eyebrow">Wellness</p>
+        <h1 class="page-hero-title">The <em>Elara</em> Spa</h1>
+        <p class="page-hero-sub">10,000 square feet of alpine wellness rituals, stillness, and restoration.</p>
+      </div>
+    </div>
+
+    <div class="spa-content">
+
+      <div class="spa-intro glass-panel">
+        <div class="spa-intro-text">
+          <h2>An ancient tradition,<br><em>redefined</em></h2>
+          <p>Rooted in centuries of Swiss herbal knowledge and informed by the world's most advanced wellness research, the ELARA Spa is a full-sensory retreat. Alpine spring water, hand-harvested botanicals, and silence are our primary tools.</p>
+          <a href="#" class="btn-primary">Book a Treatment</a>
+        </div>
+        <div class="spa-highlights">
+          <div class="spa-item glass-card">
+            <span class="spa-num">6</span>
+            <span>Treatment Suites</span>
+          </div>
+          <div class="spa-item glass-card">
+            <span class="spa-num">25m</span>
+            <span>Indoor Pool</span>
+          </div>
+          <div class="spa-item glass-card">
+            <span class="spa-num">4</span>
+            <span>Steam & Sauna</span>
+          </div>
+          <div class="spa-item glass-card">
+            <span class="spa-num">∞</span>
+            <span>Serenity</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="treatments-grid">
+        <div class="treatment glass-card" style="--delay:0s">
+          <div class="treatment-icon">◈</div>
+          <h3>Alpine Stone Ritual</h3>
+          <p>90 minutes of warm granite stone therapy with alpine herb oils, restoring deep muscle harmony.</p>
+          <span class="treatment-price">CHF 340</span>
+        </div>
+        <div class="treatment glass-card" style="--delay:.1s">
+          <div class="treatment-icon">✦</div>
+          <h3>Platinum Facial</h3>
+          <p>Our signature colloidal platinum and glacial water treatment — visibly radiant results from the first session.</p>
+          <span class="treatment-price">CHF 280</span>
+        </div>
+        <div class="treatment glass-card" style="--delay:.2s">
+          <div class="treatment-icon">⟡</div>
+          <h3>Lake Algae Wrap</h3>
+          <p>A full-body mineral immersion sourced from Lake Geneva algae, detoxifying and deeply nourishing.</p>
+          <span class="treatment-price">CHF 220</span>
+        </div>
+        <div class="treatment glass-card" style="--delay:.3s">
+          <div class="treatment-icon">❋</div>
+          <h3>Couple's Sanctuary</h3>
+          <p>A private 3-hour journey for two: bath ritual, dual massage, and champagne in the alpine garden.</p>
+          <span class="treatment-price">CHF 780</span>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner glass-panel">
+      <div class="footer-brand">
+        <div class="footer-logo">ELARA</div>
+        <p>Lake Geneva, Switzerland</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Hotel</h4>
+          <a href="#">About ELARA</a>
+          <a href="#">Rooms & Suites</a>
+          <a href="#">Dining</a>
+          <a href="#">Spa & Wellness</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="#">+41 22 900 0000</a>
+          <a href="#">reservations@elara.com</a>
+          <a href="#">Directions</a>
+        </div>
+        <div class="footer-col">
+          <h4>Follow</h4>
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-base">© 2025 ELARA Hotel. All rights reserved.</div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
